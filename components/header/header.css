@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.header {
+    padding: 96px 0 77px;
+    background-color: var(--white);
+}
+
+.header__title {
+    /* Reusable component library */
+/* h1 */
+    font-family: 'Inter', serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 64px;
+    color: #212429;
+
+}
