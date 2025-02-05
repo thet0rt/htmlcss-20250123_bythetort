@@ -1,1 +1,37 @@
 /* Стилизация кнопки */
+
+button {
+    height: 48px;
+    background-color: #4263EB;
+    color: white;
+    border-radius: 10px;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+
+}
+
+button:disabled {
+    opacity: 0.5;
+}
+
+button:enabled:hover {
+    background-color: #2342C0;
+    cursor: pointer;
+}
+
+.alternative {
+    background-color: white;
+    color: black;
+    border-color: grey;
+    border-width: 1px;
+    transition: border-width 100ms ease-in-out;
+
+}
+
+
+.alternative:enabled:hover {
+    background-color: white;
+    opacity: 1;
+    color: black;
+    border-color: black;
+    border-width: 2px;
+}
