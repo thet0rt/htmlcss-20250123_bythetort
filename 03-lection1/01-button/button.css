@@ -1,6 +1,6 @@
 /* Стилизация кнопки */
 
-button {
+.button {
     height: 48px;
     background-color: #4263EB;
     color: white;
@@ -9,11 +9,11 @@ button {
 
 }
 
-button:disabled {
+.button:disabled {
     opacity: 0.5;
 }
 
-button:enabled:hover {
+.button:enabled:hover {
     background-color: #2342C0;
     cursor: pointer;
 }
@@ -24,9 +24,7 @@ button:enabled:hover {
     border-color: grey;
     border-width: 1px;
     transition: border-width 100ms ease-in-out;
-
 }
-
 
 .alternative:enabled:hover {
     background-color: white;
