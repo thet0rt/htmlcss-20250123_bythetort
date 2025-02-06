@@ -1,8 +1,9 @@
 /* Стилизация кнопки */
+@import '../../assets/css/main.css';
 
 .button {
     height: 48px;
-    background-color: #4263EB;
+    background-color: var(--blue-2);
     color: white;
     border-radius: 10px;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
@@ -14,7 +15,7 @@
 }
 
 .button:enabled:hover {
-    background-color: #2342C0;
+    background-color: var(--dark-blue);
     cursor: pointer;
 }
 
