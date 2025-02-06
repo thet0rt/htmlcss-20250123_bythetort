@@ -22,13 +22,16 @@
 
 }
 
+.accordion__item p {
+    color: var(--grey-4)
+}
 
-.accordion__summary {
+
+.accordion__summary, .accordion__item {
     font-family: 'Inter', serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
-
 }
 
 .accordion__summary::-webkit-details-marker {
