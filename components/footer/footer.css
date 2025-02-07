@@ -1,0 +1,19 @@
+.footer h2 {
+    font-family: 'Inter', serif;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.footer p {
+    font-family: 'Inter', serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.footer {
+    height: 384px;
+}
