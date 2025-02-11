@@ -1,15 +1,19 @@
 /* Стилизация аккордеона */
-@import '../../assets/fonts/fonts.css';
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.accordion__block {
+    width: 730px;
+    font-family: 'Inter', serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
 
 .accordion__item {
-    border: 1px solid;
-    width: 666px;
-    border-color: var(--grey-3);
-    border-radius: 7px;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
     padding: 24px 32px;
     margin-bottom: 8px;
-
+    color: var(--grey-4)
 }
 
 .accordion__item[open] .accordion__summary img {
@@ -22,18 +26,14 @@
 
 }
 
-.accordion__item p {
-    color: var(--grey-4)
-}
-
-
-.accordion__summary, .accordion__item {
-    font-family: 'Inter', serif;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
+.accordion__text {
+    padding-top: 16px
 }
 
 .accordion__summary::-webkit-details-marker {
     display: none;
+}
+
+.accordion__image {
+    float: right;
 }
