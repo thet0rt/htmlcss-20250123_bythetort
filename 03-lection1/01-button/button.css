@@ -3,7 +3,7 @@
 .button__primary {
     height: 48px;
     background-color: var(--blue-2);
-    color: white;
+    color: var(--white);
     border-radius: 8px;
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
     padding: 15px 63px;
@@ -28,20 +28,20 @@
 }
 
 .button__secondary:enabled:hover {
-    background-color: #5028C6;
+    background-color: var(--purple-2);
 );
 }
 
 .button__alternative {
-    background-color: white;
+    background-color: var(--white);
     color: black;
-    border: 1px solid grey;
+    border: 1px solid var(--grey-3);
     transition: border-width 100ms ease-in-out;
 }
 
 .button__alternative:enabled:hover {
-    background-color: white;
+    background-color: var(--white);
     opacity: 1;
-    color: black;
-    border-color: black;
+    color: var(--black);
+    border-color: var(--black);
 }
