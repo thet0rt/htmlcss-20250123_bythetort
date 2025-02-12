@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.logo__text {
+    /*padding-left: 10px;*/
+    margin: 0;
+    /*justify-self: flex-start;*/
+    /*align-self: flex-start;*/
+}
+
+.container__reset {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.button__reset {
+    padding: 10px 70px;
+}
+
+.title {
+
+}
+
+.main__content {
+    padding-left: 100px;
+    max-width: 900px;
+}
+
+.container__input_phrase {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+}
+
+
+.input__phrase__name {
+    color: gray;
+}
+
+.input__phrase {
+    padding: 25px 180px;
+}
+
