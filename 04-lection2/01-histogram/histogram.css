@@ -1,0 +1,178 @@
+
+.card {
+    margin: 24px;
+    border: 1px solid var(--grey-3);
+    display: flex;
+    max-width: 354px;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.container {
+    margin: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    /*width: 100%;*/
+    flex-grow: 1;
+}
+
+.card__title {
+    font-family: 'Inter', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black);
+    /*margin: 16px 24px;*/
+}
+
+.card__viewall {
+    width: 59;
+    height: 24;
+    top: 548px;
+    left: 808px;
+    color: #4263EB;
+}
+
+.amount {
+    font-family: 'Inter', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin-left: 24px;
+}
+
+.histogram__container {
+    display: flex;
+    align-items: flex-end;
+    gap: 1px;
+    margin: 24px;
+
+}
+
+.histogram__bar {
+    height: 50px;
+    /*width: 9px;*/
+    background-color: #4263EB;
+    flex-grow: 1;
+}
+
+.bar__1 {
+    height: 50px;
+}
+
+.bar__2 {
+    height: 35px;
+}
+
+.bar__3 {
+    height: 25px;
+}
+
+.bar__4 {
+    height: 39px;
+}
+
+.bar__5 {
+    height: 22px;
+}
+
+.bar__6 {
+    height: 30px;
+}
+
+.bar__7 {
+    height: 39px;
+}
+
+.bar__8 {
+    height: 50px;
+}
+
+.bar__9 {
+    height: 11px;
+}
+
+.bar__10 {
+    height: 22px;
+}
+
+.bar__11 {
+    height: 30px;
+}
+
+.bar__12 {
+    height: 35px;
+}
+
+.bar__13 {
+    height: 11px;
+}
+
+.bar__14 {
+    height: 50px;
+}
+
+.bar__15 {
+    height: 11px;
+}
+
+.bar__16 {
+    height: 39px;
+}
+
+.bar__17 {
+    height: 30px;
+}
+
+.bar__18 {
+    height: 22px;
+}
+
+.bar__19 {
+    height: 35px;
+}
+
+.bar__20 {
+    height: 30px;
+}
+
+.bar__21 {
+    height: 11px;
+}
+
+.bar__22 {
+    height: 39px;
+}
+
+.bar__23 {
+    height: 35px;
+}
+
+.bar__24 {
+    height: 45px;
+}
+
+.bar__25 {
+    height: 30px;
+}
+
+.bar__26 {
+    height: 11px;
+}
+
+.bar__27 {
+    height: 30px;
+}
+
+.bar__28 {
+    height: 11px;
+}
+
+.bar__29 {
+    height: 35px;
+}
+
+.bar__30 {
+    height: 17px;
+}
+
