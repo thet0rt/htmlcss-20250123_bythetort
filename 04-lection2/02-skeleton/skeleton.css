@@ -1,0 +1,50 @@
+.skeleton {
+    border: 1px solid var(--grey-3);
+    width: fit-content;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+}
+
+.skeleton__profile {
+    margin-top: 24px;
+    margin-left: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skeleton__ProfileImage {
+    background-color: var(--grey-2);
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+    margin-right: 16px;
+}
+
+.skeleton__ProfileName {
+    height: 20px;
+    width: 172px;
+    margin-top: 8px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.skeleton__ProfileSurname {
+    height: 20px;
+    width: 257px;
+    margin-top: 8px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.skeleton__data {
+    margin-top: 16px;
+    margin-left: 24px;
+    margin-right: 40px;
+    margin-bottom: 32px;
+}
+
+.skeleton__dataBar {
+    height: 20px;
+    width: 515px;
+    background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+    margin-top: 8px;
+}
