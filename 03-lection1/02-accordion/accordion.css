@@ -1,11 +1,12 @@
 /* Стилизация аккордеона */
 
-.accordion__block {
-    width: 730px;
+.accordion {
+    /*width: 730px;*/
     font-family: 'Inter', serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
+    margin: 10px;
 }
 
 .accordion__item {
@@ -16,24 +17,16 @@
     color: var(--grey-4)
 }
 
-.accordion__item[open] .accordion__summary img {
-    transform: rotate(180deg);
-
-}
-
 .accordion__item:last-child {
     margin-bottom: 0;
 
 }
 
 .accordion__text {
-    padding-top: 16px
+    padding-top: 16px;
+    padding-bottom: 8px;
 }
 
 .accordion__summary::-webkit-details-marker {
     display: none;
-}
-
-.accordion__image {
-    float: right;
 }
