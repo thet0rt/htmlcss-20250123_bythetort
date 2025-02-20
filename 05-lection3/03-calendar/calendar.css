@@ -24,7 +24,6 @@ body {
 }
 
 .calendar__wrapper {
-    /*background-color: red;*/
     padding-bottom: 100%;
     position: relative;
 }
@@ -35,19 +34,15 @@ body {
     right: 0;
     left: 0;
     bottom: 0;
-    /*background-color: yellow;*/
-
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(6, 1fr);
-
 }
 
 .days {
     grid-area: 1/1/1/-1;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    /*grid-template-rows: 1fr;*/
 }
 
 .day {
@@ -77,7 +72,6 @@ body {
     line-height: 20px;
     letter-spacing: 0px;
     text-align: center;
-
 }
 
 .date__selected {
@@ -94,10 +88,6 @@ body {
     letter-spacing: 0px;
     text-align: center;
     color: var(--white)
-
-    /*place-self: center center;*/
-    /*padding: 0;*/
-
 }
 
 .date__between {
@@ -108,7 +98,3 @@ body {
     min-height: 100%;
     min-width: 100%;
 }
-
-/*.day_1 {*/
-/*    grid-area: 1/1/1/1;*/
-/*}*/
