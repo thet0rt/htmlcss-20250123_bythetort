@@ -5,9 +5,10 @@
 }
 
 .tooltip__bubble {
-    display: block;
+    display: none;
     position: absolute;
     bottom: calc(100% + 8px);
+    left: 50%;
     transform: translateX(-50%);
     width: 129px;
     font-family: 'Inter', serif;
@@ -28,7 +29,8 @@
     border-top: 6px solid #4263EB;
     position: absolute;
     top: 100%;
-    transform: translateX(50%);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .tooltip__trigger:hover ~ .tooltip__bubble {
