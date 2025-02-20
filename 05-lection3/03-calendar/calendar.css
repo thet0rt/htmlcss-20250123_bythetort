@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.calendar {
+    max-width: 300px;
+    padding: 28px 36px;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.calendar__title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Inter', serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #334D6E;
+}
+
+.calendar__wrapper {
+    /*background-color: red;*/
+    padding-bottom: 100%;
+    position: relative;
+}
+
+.calendar__inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /*background-color: yellow;*/
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+
+}
+
+.days {
+    grid-area: 1/1/1/-1;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /*grid-template-rows: 1fr;*/
+}
+
+.day {
+    font-family: 'Inter', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #90A0B7;
+    place-self: end center;
+}
+
+.dates {
+    grid-area: 2/1/-1/-1;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+
+.date {
+    place-self: center center;
+    font-family: "Source Sans Pro", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.date__selected {
+    display: flex;
+    background-color: #4263EB;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    min-width: 100%;
+    font-family: "Source Sans Pro", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: var(--white)
+
+    /*place-self: center center;*/
+    /*padding: 0;*/
+
+}
+
+.date__between {
+    display: flex;
+    background-color: #A0B1F5;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+/*.day_1 {*/
+/*    grid-area: 1/1/1/1;*/
+/*}*/
