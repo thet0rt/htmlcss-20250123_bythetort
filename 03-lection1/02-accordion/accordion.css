@@ -1,12 +1,10 @@
 /* Стилизация аккордеона */
 
 .accordion {
-    /*width: 730px;*/
     font-family: 'Inter', serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
-    margin: 10px;
 }
 
 .accordion__item {
