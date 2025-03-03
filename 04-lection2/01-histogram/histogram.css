@@ -1,39 +1,32 @@
 
-.card {
-    margin: 24px;
+.histogram {
     border: 1px solid var(--grey-3);
     display: flex;
-    max-width: 354px;
+    /*max-width: 354px;*/
     border-radius: 8px;
     flex-direction: column;
 }
 
-.container {
+.histogram__title_container {
     margin: 16px 24px;
     display: flex;
     justify-content: space-between;
-    /*width: 100%;*/
     flex-grow: 1;
 }
 
-.card__title {
+.histogram__title {
     font-family: 'Inter', serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: var(--black);
-    /*margin: 16px 24px;*/
 }
 
-.card__viewall {
-    width: 59;
-    height: 24;
-    top: 548px;
-    left: 808px;
+.histogram__viewall {
     color: #4263EB;
 }
 
-.amount {
+.histogram__amount {
     font-family: 'Inter', serif;
     font-weight: 400;
     font-size: 20px;
@@ -51,7 +44,6 @@
 
 .histogram__bar {
     height: 50px;
-    /*width: 9px;*/
     background-color: #4263EB;
     flex-grow: 1;
 }
